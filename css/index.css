@@ -1,0 +1,348 @@
+/* Roboto Font Imports  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+
+/* css reset  */
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+
+body {
+    background-color: #00013c;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+
+body::-webkit-scrollbar {
+    width: 0.3rem;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+
+}
+
+
+/* css reset for li and a  */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul>li>a {
+    color: #DFF6FF;
+    text-decoration: none;
+}
+
+/* header  */
+.header {
+    width: 100%;
+    background-color: #01071c;
+    height: 80px;
+}
+
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+    height: inherit;
+}
+
+.logo-img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logoImg {
+    width: 6rem;
+}
+
+
+/* links */
+
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10rem;
+
+}
+
+ul>li {
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+
+
+ul>li>a:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px #00013c;
+
+}
+
+/* nav- ended here  */
+
+
+/* main section */
+
+
+/* hero section */
+
+.hero-section {
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.hero-slogan {
+    margin-bottom: 5rem;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.hero-section-image>img {
+    width: auto;
+    height: auto;
+}
+
+.hero-text-wrapper {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    color: white;
+    width: 50%;
+    font-weight: light;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* achievement base section */
+
+
+.achievements-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    width: 50%;
+}
+
+
+
+
+/* achievement section ended */
+
+
+
+/* why connect a bank */
+
+
+.connect-a-bank {
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.connect-a-bank-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.connect-a-bank-text {
+    width: 50%;
+}
+
+
+.connect-a-bank-text>p {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    padding-right: 2rem;
+    text-align: justify;
+}
+
+.connect-a-bank-cards-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2rem;
+}
+
+
+.connect-bank-images {
+    padding: 3rem;
+    margin: 2rem;
+}
+
+
+.card {
+    background: none;
+    border: 1px solid orange;
+    /* width: 200px; */
+    /* height: 100px; */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.inner-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+.card>span {
+    font-weight: bolder;
+
+}
+
+
+/* why choose us */
+
+.why-choose-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-choose-us-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.why-choose-us-heading-wrapper {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.why-choose-us-heading {
+
+    border-bottom: 2px solid white;
+    font-size: 2.5rem;
+    color: orange;
+    line-height: 4rem;
+}
+
+.why-choose-us-para {
+    text-align: justify;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+
+
+
+/* we simply financing */
+
+svg {
+    width: 20px;
+    height: 20px;
+    color: orange;
+    margin-right: 1rem;
+}
+
+.we-simply-heading {
+
+    font-size: 2.5rem;
+    color: orange;
+
+}
+
+
+.we-simply-financing-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox-item {
+    display: flex;
+    margin: 10px;
+}
+
+.we-simply-button {
+    margin-top: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: orange;
+    width: 25%;
+    height: 2rem;
+    align-items: center;
+}
+
+
+
+/* financial instruments */
+.financial-instruments {
+    margin-top: 2rem;
+}
+
+.financial-instruments-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.financial-heading-wrapper {
+    width: 400px;
+}
+
+.financial-heading {
+    font-size: 2.5rem;
+    color: orange;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.financial-buttons {
+    display: flex;
+    margin: 20px;
+}
+
+.buttons {
+    margin: 20px;
+    border: 2px solid orange;
+    padding: 15px;
+}
+
+
+
+
+/* footer */
