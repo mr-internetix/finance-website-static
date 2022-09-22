@@ -23,6 +23,7 @@ body {
     background-color: #00013c;
     font-family: 'Roboto', sans-serif;
     color: white;
+    overflow-x: hidden;
 
 }
 
@@ -346,3 +347,66 @@ svg {
 
 
 /* footer */
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    /* height: 30vh; */
+    background-color: black;
+}
+
+
+.footer-wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+    margin-top: 10px;
+}
+
+#footer-logo{
+    width : 150px;
+    height: 100px;
+
+}
+
+
+.footer-address > span {
+    font-size: 1.3rem;
+}
+
+
+.social-logo{
+    display: flex;
+    align-items: center;
+}
+
+
+.social-logo > img{
+    width: 32px;
+    margin: 15px;
+    height: 32px;
+}
+
+
+.footer-middle {
+    margin: 5rem;
+}
+
+
+.footer-middle  > ul > a > li {
+    margin-top: 10px;
+}
+
+.copyrights {
+    background-color: black;
+    padding: 2rem;
+}
+
+.copyrights-text{
+    text-align: center;
+    font-size: medium;
+    font-weight: 400;
+}
