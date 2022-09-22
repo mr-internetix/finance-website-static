@@ -32,7 +32,7 @@
 								<a href="/insurance">Insurance</a>
 							</li>
 							<li>
-								<a href="/aboutus">About Us</a>
+								<a href="./aboutus.html">About Us</a>
 							</li>
 							<li>
 								<a href="/career">Career</a>
@@ -45,15 +45,62 @@
 				</div>
 			</nav>
 		</header>
-		<div class="main">
-			<h2>tHIS IS MAIN</h2>
-		</div>
+		<main class="main">
+			<div class="heading-wrapper">
+
+				<h1 class="contact-us-heading"> Contact Us </h1>
+			</div>
+			<div class="contact-form">
+				<div class="contact-image-wrapper">
+					<img src="../images/message.gif" alt="message.gif" />
+				</div>
+				<div class="contact-form-wrapper">
+					<form>
+						<ul>
+							<li>
+								<label for="name"
+									><span
+										>Name
+										<span class="required-star"
+											>*</span
+										></span
+									></label
+								>
+								<input type="text" id="name" name="user_name" />
+							</li>
+							<li>
+								<label for="mail"
+									><span
+										>Email
+										<span class="required-star"
+											>*</span
+										></span
+									></label
+								>
+								<input
+									type="email"
+									id="mail"
+									name="user_email"
+								/>
+							</li>
+							<li>
+								<label for="msg"><span>Message</span></label>
+								<textarea rows="4" cols="50"></textarea>
+							</li>
+							<li>
+								<input type="submit" />
+							</li>
+						</ul>
+					</form>
+				</div>
+			</div>
+		</main>
 		<!-- footer -->
-		<!-- <footer>
+		<footer>
         <div class="footer">
           <div class="footer-wrapper">
             <div class="footer-left">
-              <img id="footer-logo" src="./images/logoImg.png" alt="footer-logo">
+              <img id="footer-logo" src="../images/logoImg.png" alt="footer-logo">
               <div class="footer-address">
                 <span>
                   812,Corporate Annex,<br>
@@ -114,6 +161,6 @@
             © mr_internetix  All Rights Reserved.
   
         </h3>
-      </footer> -->
+	</footer>
 	</body>
 </html>

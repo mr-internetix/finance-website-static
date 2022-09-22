@@ -1,5 +1,8 @@
 /* Roboto Font Imports  */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
 
 
 /* css reset  */
@@ -21,7 +24,9 @@ a {
 
 body {
     background-color: #00013c;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif;
+     */
+     font-family: 'Manrope', sans-serif;
     color: white;
     overflow-x: hidden;
 
@@ -410,3 +415,110 @@ svg {
     font-size: medium;
     font-weight: 400;
 }
+
+
+/* contact-us */
+
+label,
+input,
+textarea {
+    display: block;
+    width: 100%;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 0.3em;
+}
+label > span {
+    font-weight: 700;
+    color: #102a43;
+    line-height: 35px;
+    line-height: 2.5rem;
+    font-size: 12px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+input[type="submit"] {
+    background: #fc4366;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-top: 1.3em;
+}
+
+.contact-form-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    width: auto;
+}
+form {
+    background-color: #ffffff;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.required-star {
+    color: #fc4366;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 9px 20px;
+    border: 1px solid #e1e2eb;
+    background-color: #fff;
+    color: #102a43;
+    caret-color: #829ab1;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 29px;
+    line-height: 2rem;
+    box-shadow: inset 0 2px 4px 0 rgba(206, 209, 224, 0.2);
+    border-radius: 3px;
+    line-height: 29px;
+    line-height: 2rem;
+}
+
+
+.contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-image-wrapper{
+    width: auto;
+    height: auto;
+}
+
+.heading-wrapper{
+    display: flex;
+    justify-content: center;
+
+}
+
+.contact-us-heading{
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    border-bottom: 2px solid orangered;
+    width: fit-content;
+}
+
+
+/* about us  */
