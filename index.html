@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/index.css" />
     <title>Finance Website</title>
   </head>
   <body>
     <!-- header -->
     <header>
-      <nav class="header">
+      <nav class="header" data-aos="flip-right">
         <div class="nav-wrapper">
           <div class="logo-img-wrapper">
             <img class="logoImg" src="./images/logoImg.png" alt="log-img" />
@@ -34,7 +35,7 @@
                 <a href="/career">Career</a>
               </li>
               <li>
-                <a href="/contactus">Contact Us</a>
+                <a href="./pages/contactus.html">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -43,7 +44,7 @@
     </header>
     <div class="main">
       <!-- hero section -->
-      <div class="hero-section">
+      <div class="hero-section" data-aos="flip-right">
         <div class="hero-slogan-wrapper">
           <h1 class="hero-slogan">
             If Money is the Problem make us your solution
@@ -65,18 +66,21 @@
           </p>
         </div>
         <div class="achievements-section">
-          <div class="achievement-wrapper-item">
-            <div class="achievement-item">
+          <div class="achievement-wrapper-item"data-aos="fade-up" data-aos-duration="3000">
+            <div class="achievement-item"  
+            >
               <img
                 alt="simileimage"
                 src="https://cdn.sanity.io/images/pdj8lger/staging/54abf98023be82db8821326d446d9392af3e3687-100x100.png"
               />
-            </div>
+
             <h3 class="achivement-text">5000<span class="">+</span></h3>
             <p class="achievement-base">Happy Customers</p>
+            </div>
           </div>
 
-          <div class="achievement-wrapper-item">
+          <div class="achievement-wrapper-item"  data-aos="fade-up"
+          data-aos-duration="3000">
             <div class="achievement-item">
               <img
                 alt="badge image"
@@ -87,7 +91,8 @@
             <p class="achievement-base">YEARS OF EXPERIENCE</p>
           </div>
 
-          <div class="achievement-wrapper-item">
+          <div class="achievement-wrapper-item"  data-aos="fade-up"
+          data-aos-duration="3000">
             <div class="achievement-item">
               <img
                 alt="simileimage"
@@ -99,7 +104,8 @@
             <p class="achievement-base">DISBURSALS</p>
           </div>
 
-          <div class="achievement-wrapper-item">
+          <div class="achievement-wrapper-item"  data-aos="fade-up"
+          data-aos-duration="3000">
             <div class="achievement-item">
               <img
                 alt="bank image"
@@ -113,7 +119,7 @@
         </div>
       </div>
       <!-- why connect a bank  -->
-      <div class="connect-a-bank">
+      <div class="connect-a-bank" data-aos="fade-up">
         <div class="connect-a-bank-wrapper">
           <div class="connect-a-bank-text">
             <h2>WHY CONNECT A BANK?</h2>
@@ -130,7 +136,10 @@
           </div>
           <div class="connect-bank-images">
             <div class="connect-a-bank-cards-container">
-              <div class="card">
+              <div class="card" data-aos="fade-left"
+              data-aos-anchor="#example-anchor"
+              data-aos-offset="500"
+              data-aos-duration="500">
                 <a href="/">
                   <div class="inner-div">
                     <img
@@ -142,7 +151,10 @@
                 </a>
               </div>
 
-              <div class="card">
+              <div class="card" data-aos="fade-left"
+              data-aos-anchor="#example-anchor"
+              data-aos-offset="500"
+              data-aos-duration="1000">
                 <a href="/">
                   <div class="inner-div">
                     <img
@@ -154,7 +166,10 @@
                 </a>
               </div>
 
-              <div class="card">
+              <div class="card" data-aos="fade-left"
+              data-aos-anchor="#example-anchor"
+              data-aos-offset="500"
+              data-aos-duration="1500">
                 <a href="/">
                   <div class="inner-div">
                     <img
@@ -166,7 +181,10 @@
                 </a>
               </div>
 
-              <div class="card">
+              <div class="card" data-aos="fade-left"
+              data-aos-anchor="#example-anchor"
+              data-aos-offset="500"
+              data-aos-duration="2000">
                 <a href="/">
                   <div class="inner-div">
                     <img
@@ -178,7 +196,10 @@
                 </a>
               </div>
 
-              <div class="card">
+              <div class="card" data-aos="fade-left"
+              data-aos-anchor="#example-anchor"
+              data-aos-offset="500"
+              data-aos-duration="2500">
                 <a href="/">
                   <div class="inner-div">
                     <img
@@ -190,7 +211,10 @@
                 </a>
               </div>
 
-              <div class="card">
+              <div class="card" data-aos="fade-left"
+              data-aos-anchor="#example-anchor"
+              data-aos-offset="500"
+              data-aos-duration="3000">
                 <a href="/">
                   <div class="inner-div">
                     <img
@@ -207,7 +231,7 @@
       </div>
 
       <!-- why choose us  -->
-      <div class="why-choose-us">
+      <div class="why-choose-us" data-aos="fade-right">
         <div class="why-choose-us-wrapper">
           <div class="why-choose-us-heading-wrapper">
             <h2 class="why-choose-us-heading">WHY CHOOSE US?</h2>
@@ -239,7 +263,7 @@
       </div>
 
       <!-- we simply financing -->
-      <div class="we-simply-financing">
+      <div class="we-simply-financing"  data-aos="flip-up">
         <div class="we-simply-financing-wrapper">
           <div class="we-simply-financing-text-wrapper">
             <div class="we-simply-heading-wrapper">
@@ -319,7 +343,7 @@
 
       <!-- financial Instruments -->
 
-      <div class="financial-instruments">
+      <div class="financial-instruments" data-aos="zoom-in">
         <div class="financial-instruments-wrapper">
           <div class="financial-heading-wrapper">
             <h2 class="financial-heading">Financial Instruments</h2>
@@ -338,7 +362,8 @@
 
     <!-- footer -->
     <footer>
-      <div class="footer">
+      <div class="footer" data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom">
         <div class="footer-wrapper">
           <div class="footer-left">
             <img id="footer-logo" src="./images/logoImg.png" alt="footer-logo">
@@ -403,7 +428,7 @@ Contact Us : 9167479999
 
       </h3>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./scripts/index.js"></script>
   </body>
 </html>
